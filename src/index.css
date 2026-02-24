@@ -1,0 +1,73 @@
+
+
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f1f3f5; /* Light gray-blue */
+  font-family: 'Roboto', sans-serif;
+  color: #212529;
+}
+
+/* App container using Flexbox layout */
+.app-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+/* Sidebar (Navigation) */
+.sidebar {
+  width: 240px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 16px;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/* Main content area (shifted right of sidebar) */
+.main-content {
+  margin-left: 240px; /* Same as sidebar width */
+  padding: 24px;
+  flex: 1;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 60px;
+    padding: 8px;
+  }
+
+  .main-content {
+    margin-left: 60px;
+    padding: 16px;
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out forwards;
+}
+
+
+
+

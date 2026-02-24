@@ -1,0 +1,94 @@
+{
+  "_id": {
+    "$oid": "6964bad7e468e329fdcdf2ee"
+  },
+  "type": "itemOptions",
+  "category": "asset_spare",
+ "items": [
+    { "key": "battery", "label": "Battery" },
+
+    { "key": "display", "label": "Display Screen" },
+    { "key": "display_flex", "label": "Display Flex Cable" },
+
+    { "key": "keyboard", "label": "MacBook Keyboard" },
+    { "key": "trackpad", "label": "MacBook Trackpad" },
+    { "key": "trackpad_flex", "label": "Trackpad Flex" },
+
+    { "key": "touch_id", "label": "Touch ID Sensor" },
+    { "key": "touch_bar", "label": "MacBook Touch Bar" },
+
+    { "key": "topcase_used", "label": "Top Case (Used)" },
+    { "key": "topcase_brand_new", "label": "Top Case (Brand New)" },
+    { "key": "topcase_with_keyboard", "label": "Top Case with Keyboard" },
+    { "key": "topcase_without_keyboard", "label": "Top Case without Keyboard" },
+    { "key": "topcase_touchbar_working", "label": "Top Case with Working Touch Bar" },
+    { "key": "topcase_touchbar_faulty", "label": "Top Case with Faulty Touch Bar" },
+
+    { "key": "housing", "label": "MacBook Housing" },
+
+    { "key": "motherboard", "label": "Motherboard" },
+    { "key": "dead_motherboard", "label": "Dead Motherboard" },
+
+    { "key": "fan_single", "label": "Cooling Fan (Single)" },
+    { "key": "fan_left", "label": "Cooling Fan Left" },
+    { "key": "fan_right", "label": "Cooling Fan Right" },
+
+    { "key": "speaker", "label": "Speaker (Pair)" },
+    { "key": "speaker_left", "label": "Speaker Left" },
+    { "key": "speaker_right", "label": "Speaker Right" },
+
+    { "key": "microphone", "label": "Microphone" },
+    { "key": "mic_flex", "label": "Microphone Flex" },
+
+    { "key": "wifi_antenna", "label": "Wi-Fi Antenna" },
+    { "key": "wifi_card", "label": "Wi-Fi / Airport Card" },
+
+    { "key": "charging_port", "label": "Charging Port" },
+    { "key": "charging_port_left", "label": "Charging Port Left" },
+    { "key": "charging_port_right", "label": "Charging Port Right" },
+    { "key": "magsafe_2", "label": "MagSafe 2 Port" },
+    { "key": "magsafe_3", "label": "MagSafe 3 Port" },
+
+    { "key": "io_board", "label": "I/O Board" },
+    { "key": "io_flex", "label": "I/O Flex Cable" },
+    { "key": "right_sub_board", "label": "Right Sub Board" },
+
+    { "key": "audio_jack", "label": "3.5mm Audio Jack" },
+
+    { "key": "hall_sensor_flex", "label": "Hall Sensor Flex" },
+    { "key": "keyboard_sub_board", "label": "Keyboard Sub Board" },
+    { "key": "keyboard_backlight", "label": "Keyboard Backlight Sheet" },
+
+    { "key": "power_key", "label": "Power Key" },
+    { "key": "on_off_ribbon", "label": "On / Off Ribbon Cable" },
+
+    { "key": "power_adapter", "label": "Power Adapter" },
+
+    { "key": "dvd_drive", "label": "DVD Drive" },
+
+    
+    { "key": "ssd_128gb", "label": "SSD 128GB" },
+    { "key": "ssd_256gb", "label": "SSD 256GB" },
+    { "key": "ssd_512gb", "label": "SSD 512GB" },
+    { "key": "ssd_1tb", "label": "SSD 1TB" },
+    { "key": "ssd_2tb", "label": "SSD 2TB" },
+
+    { "key": "hdd_500gb", "label": "Hard Disk 500GB" },
+    { "key": "hdd_1tb", "label": "Hard Disk 1TB" },
+    { "key": "hdd_2tb", "label": "Hard Disk 2TB" },
+
+    
+    { "key": "ram_4gb", "label": "RAM 4GB" },
+    { "key": "ram_8gb", "label": "RAM 8GB" },
+    { "key": "ram_16gb", "label": "RAM 16GB" },
+    { "key": "ram_32gb", "label": "RAM 32GB" },
+    { "key": "ram_64gb", "label": "RAM 64GB" }
+  ],
+  "createdAt": {
+    "$date": "2025-12-31T08:40:26.900Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:06:22.341Z"
+  },
+  "__v": 32
+}
